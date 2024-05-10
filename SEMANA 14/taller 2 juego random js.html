@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random JS</title>
+    <!-- LINK DE SITIO SWEET ALERT MENSAJES MAS ELEGANTES -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./ccs/random.css">
+    <script src="./js/random.js"></script>
+</head>
+<body>
+    <center>
+<h1>APUESTAS JS</h1>
+<h2>DAR CLICK EN BOTON APOSTAR</h2>
+<br></br>
+<form action="">
+        <label for="">NUMERO APOSTADO</label>
+        <input type="text" id="apostado" class="box" disabled>
+        <br><br>
+        <label for="">NUMERO RANDOM SISTEMA</label>
+        <input type="text" id="resultado" class="box" disabled>
+        <br><br>
+        <label for="">CANTIDAD DE INTENTOS</label>
+        <input type="text" id="salida" class="box" disabled>
+    </form>
+<br><br>
+<div id="boton">
+        <button onclick="apostar();">APOSTAR</button>
+        <button onclick="cancel();">CANCELAR</button>
+    </center>
+</body>
+</html>
